@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Modam';
+  src: url('/fonts/Modam-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Modam';
+  src: url('/fonts/Modam-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Modam';
+  src: url('/fonts/Modam-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Modam';
+  src: url('/fonts/Modam-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+* {
+  font-family: "Modam", sans-serif;
+  cursor: none;
+}
+
+@theme {
+  --color-primary: #800020;
+}
