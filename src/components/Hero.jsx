@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 
 const Hero = () => {
     return (
-        <div id='hero' className='flex flex-col items-center gap-6 py-20 px-4 sm:px-12 lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white'>
+        <div id='hero' className='flex flex-col items-center gap-6 py-20 px-4 sm:px-12 lg:px-24 xl:px-40 text-center w-full overflow-hidden text-black-700 dark:text-white'>
 
             <motion.div
                 initial={{ opacity: 0, y: -20 }}
@@ -23,7 +23,7 @@ const Hero = () => {
                 transition={{ duration: 0.6, delay: 0.8 }}
                 viewport={{ once: true }}
 
-                className='text-4xl sm:text-5xl md:text-6xl xl:text-[84px]    font-black xl:leading-[95px] max-w-5xl '>ایده‌پردازی که به   <span className='bg-gradient-to-r from-[#ec2154] to-[#800020] bg-clip-text text-transparent'>تجربه</span>  تبدیل می‌شود
+                className='text-4xl sm:text-5xl md:text-6xl xl:text-[84px]    font-black xl:leading-[95px] max-w-5xl leading-[1.5]'>ایده‌پردازی <br /> که به   <span className='bg-gradient-to-r from-[#ec2154] to-[#800020] bg-clip-text text-transparent'>تجربه</span>  تبدیل می‌شود
             </motion.h1>
 
             <motion.p
@@ -32,7 +32,7 @@ const Hero = () => {
                 transition={{ duration: 0.5, delay: 1 }}
                 viewport={{ once: true }}
 
-                className='text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>ما اندیشه‌های بزرگ را به تجربه‌های دیجیتالی زنده بدل می‌سازیم و میان شما و مخاطبان‌تان پیوندی ماندگار ایجاد می‌کنیم</motion.p>
+                className='text-sm sm:text-lg font-medium text-black-500 leading-[2] dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>ما اندیشه‌های بزرگ را به تجربه‌های دیجیتالی زنده بدل می‌سازیم و میان شما و مخاطبان‌تان پیوندی ماندگار ایجاد می‌کنیم</motion.p>
 
             <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}

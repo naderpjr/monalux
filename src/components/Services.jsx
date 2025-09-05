@@ -44,7 +44,7 @@ const Services = () => {
 
             <Title title='چطور میتوانیم کمک کنیم؟' desc='هر گام از راهبرد تا اجرا، برای ما فرصتی است تا دنیای دیجیتالی بسازیم که برند شما را به جلو براند.' />
 
-            <div className='flex flex-col md:grid grid-cols-2'>
+            <div className='flex flex-col md:grid grid-cols-2 gap-4'>
                 {servicesData.map((service, index) => (
                     <ServiceCard key={index} service={service} index={index} />
                 ))}
